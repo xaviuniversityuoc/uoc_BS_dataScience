@@ -1,0 +1,69 @@
+---
+title: "PAC 1"
+author: "UOC"
+date: ''
+output:
+  html_document:
+    df_print: paged
+    code_folding: show
+  word_document: default
+  pdf_document: default
+fontsize: 12pt
+editor_options:
+  chunk_output_type: console
+---
+
+
+
+
+
+
+Aquesta PAC esta basada en una base de dades obtinguda a partir del llocweb de l'Euroestat [Euroestat](https://appsso.eurostat.ec.europa.eu/nui/show.do?query=BOOKMARK_DS-053730_QID_9626C40_UID_-3F171EB0&layout=INDIC_IS,L,X,0;IND_TYPE,L,X,1;GEO,L,Y,0;UNIT,L,Z,0;TIME,C,Z,1;INDICATORS,C,Z,2;&zSelection=DS-053730INDICATORS,OBS_FLAG;DS-053730TIME,2019;DS-053730UNIT,PC_IND_IU3;&rankName1=UNIT_1_2_-1_2&rankName2=INDICATORS_1_2_-1_2&rankName3=TIME_1_0_1_0&rankName4=INDIC-IS_1_2_0_0&rankName5=IND-TYPE_1_2_1_0&rankName6=GEO_1_2_0_1&rStp=&cStp=&rDCh=&cDCh=&rDM=true&cDM=true&footnes=false&empty=false&wai=false&time_mode=ROLLING&time_most_recent=false&lang=EN&cfo=%23%23%23%2C%23%23%23.%23%23%23&lang=EN&lang=EN) (Oficina Europea de Estadística). Les dades les teniu disponibles al fitxer "data_pac" en format csv i xlsx. 
+
+
+
+Aquesta base de dades conté informació sobre el percentatge de compres que es realitzen per internet de particulars (fins 2019), per a homes i dones d'entre 16 y 74 anys. 
+
+Conté les següents variables: 
+
+- *geo* = Àrea Geogràfica
+- *sex* = Sexe
+- *household_goods* = articles domèstics
+- *films_music* = películes i música
+- *clothes_sports_goods* = roba i articless esportius
+- *electronic_equipment* = equips electrònics
+- *tickets_for_events* = entrades per a events
+- *travel_and_holiday_accommodation* = viatges,  vacances i allotjament
+
+
+
+
+Us pot ser útil consultar el següent material:
+
+1. Manuals 1 i 3 de R
+2. Activitats Resoltes del Repte 1 (Estadística Descriptiva)
+
+**Cal lliurar la pràctica en forma de fitxer pdf o html al registre d'AC. Es recomana generar l'informe amb Rmarkdown que genera automàticament el pdf/html a entregar**
+
+
+
+Un cop importades les dades: 
+
+### Pregunta 1. (25%) 
+Realitzeu un resum numèric i gràfic per a la variable  *electronic_equipment* i comenteu el resultat.
+
+
+### Pregunta 2. (25%) 
+Realitzeu un resum numèric i gràfic per a la variable *sex* i comenteu el resultat. 
+
+
+### Pregunta 3. (25%) 
+Distingint entre homes i dones, realitzeu un resum numèric i gràfic per a la variable *electronic_equipment*. Compareu això amb el que s'ha observat a l'apartat 1. 
+
+### Pregunta 4. (25%) 
+Trobeu el valor mínim i màxim de la variable *travel_and_holiday_accommodation* i els corresponents països on es dona aquest valor.
+
+
+
+
+
